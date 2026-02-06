@@ -26,7 +26,7 @@ We experiment with **ZestXML**, an XML algorithm designed to handle:
 ZestXML leverages semantic representations of labels and instances to improve generalization beyond seen labels.
 
 ### LLM-as-a-Teacher Paradigm
-To enhance training quality, we adopt an **LLM-as-a-Teacher** framework:
+To enhance training quality, we utilize an **LLM-as-a-Teacher** framework:
 - Large Language Models are used to generate high-quality pseudo-labels from README content
 - Repository READMEs are summarized to extract semantic signals
 - Pseudo-labels are used to guide the training of bi-encoder models
